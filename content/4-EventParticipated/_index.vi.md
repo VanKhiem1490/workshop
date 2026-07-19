@@ -6,71 +6,37 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-### [Event 1 - Tự động hóa công việc với trợ lý AI Amazon Q và MCP](4.1-Event1/)
+Trong quá trình thực tập, bên cạnh việc hoàn thành các nhiệm vụ kỹ thuật và lab trực tiếp, tôi đã tích cực tham gia các buổi hội thảo công nghệ lớn được tổ chức bởi cộng đồng và đối tác. Dưới đây là hai sự kiện công nghệ nổi bật liên quan trực tiếp đến điện toán đám mây và ứng dụng trí tuệ nhân tạo (AI) mà tôi đã tham dự và đúc kết báo cáo thu hoạch.
 
-&emsp;**Tên sự kiện:** FCAJ Community Day
+---
 
-&emsp;**Thời gian:** 09:00 ngày 23/05/2026
+### [Sự kiện 1: Tự động hóa quy trình làm việc với Amazon Q và giao thức MCP](4.1-Event1/)
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+* **Tên sự kiện:** FCAJ Community Day
+* **Thời gian diễn ra:** 09:00 - 12:00, ngày 23/05/2026
+* **Địa điểm tổ chức:** Tầng 26, Bitexco Financial Tower, Quận 1, TP. Hồ Chí Minh
+* **Vai trò:** Người tham dự học hỏi
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự
+#### **Tổng quan các chủ đề chính:**
+* **Context Is Everything:** Tối ưu hóa ngữ cảnh dữ liệu để nâng cao hiệu suất hoạt động thực tế của AI.
+* **Friendly AI Assistant with Amazon Q:** Cách xây dựng trợ lý ảo doanh nghiệp giúp phân tích dữ liệu và thiết lập luồng công việc tự động không cần code.
+* **From Edge To Origin:** Vai trò của Amazon CloudFront trong việc tối ưu hóa hiệu năng, giảm chi phí và nâng cao bảo mật hạ tầng web.
+* **LotusHacks & UTMorpho:** Chia sẻ hành trình phát triển sản phẩm công nghệ từ ý tưởng đến thực tế dưới áp lực thời gian.
+* **Non-Determinism in LLM:** Phân tích tính phi xác định của mô hình ngôn ngữ lớn (LLM) và các chiến lược kiểm soát đầu ra.
+* **Multi-Agent Systems:** Ứng dụng hệ thống đa tác vụ AI trong bài toán đánh giá tín dụng doanh nghiệp.
 
-#### **Nội dung các phiên trình bày:**
+---
 
-*   **09:00 - 09:30 AM | Context Is Everything: Making AI Actually Work for You**
-    *   Tại sao AI thất bại nếu thiếu ngữ cảnh & định nghĩa thực sự của "ngữ cảnh".
-    *   Từ gợi ý đến bộ nhớ: Cơ chế tiến hóa của AI (khái niệm Bộ não AI thứ hai).
-    *   Tối ưu hóa ngữ cảnh giúp nâng cao chất lượng đầu ra (tư duy và mẹo thực tế).
-*   **09:30 - 09:45 AM | Friendly AI Assistant with Amazon Q**
-    *   Quick Chat Agent: Trợ lý AI để khám phá dữ liệu, phân tích insight.
-    *   Quick Flows: Tạo các luồng công việc thông minh bằng ngôn ngữ tự nhiên không cần lập trình.
-    *   Quick Spaces: Không gian cộng tác chia sẻ giúp chuyển đổi insight cá nhân thành tri thức đội nhóm.
-    *   Quick Sight: Xây dựng dashboard và báo cáo từ dữ liệu thô bằng ngôn ngữ tự nhiên.
-*   **09:45 - 10:25 AM | From Edge To Origin: CloudFront as Your Foundation**
-    *   Ứng dụng Amazon CloudFront cho mọi loại tải.
-    *   Tối ưu hóa chi phí với Amazon CloudFront.
-    *   Tính năng bảo mật, nâng cao độ tin cậy và hiệu năng của CloudFront.
-*   **10:25 - 10:55 AM | 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality**
-    *   Hành trình brainstorm từ con số 0 để định hình dự án UTMorpho.
-    *   Quy trình phát triển nước rút trong 36 giờ dưới áp lực thời gian tại hackathon LotusHacks.
-    *   Thách thức, thất bại, bài học rút ra và kế hoạch tiếp theo.
-*   **11:00 - 11:30 AM | Non-Determinism of "Deterministic" LLM Settings**
-    *   Cách thức LLM lựa chọn token tiếp theo.
-    *   Thực tế tính phi xác định trong tối ưu hóa inference mặc dù Temperature = 0.
-    *   Ảnh hưởng thực tế và các chiến lược giảm thiểu.
-*   **11:30 - 12:00 PM | Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring**
-    *   Sự không tương thích cấu trúc giữa hệ thống ngân hàng truyền thống và dữ liệu startup.
-    *   Mô hình Multi-Agent và kiến trúc Ủy ban tín dụng ảo.
-    *   Hệ thống kiểm soát (Guardrails), tính tuân thủ và bài toán hoàn vốn ROI.
+### [Sự kiện 2: Thiết kế và vận hành DevOps AI Agent & Voice Agent quy mô lớn](4.2-Event2/)
 
+* **Tên sự kiện:** FCAJ Community Day
+* **Thời gian diễn ra:** 09:00 - 11:30, ngày 27/06/2026
+* **Địa điểm tổ chức:** Tầng 26, Bitexco Financial Tower, Quận 1, TP. Hồ Chí Minh
+* **Vai trò:** Người tham dự học hỏi
 
-### [Event 2 - Xây dựng trợ lý giọng nói AI (Voice Agents) quy mô lớn](4.3-Event3/)
-
-&emsp;**Tên sự kiện:** FCAJ Community Day
-
-&emsp;**Thời gian:** 09:00 ngày 27/06/2026
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự
-
-#### **Nội dung các phiên trình bày:**
-
-*   **09:00 - 09:25 AM | Deep Response Engine: From Detection to Autonomous Resolution**
-    *   Rào cản về độ phức tạp trong vận hành đám mây hiện đại.
-    *   Dịch chuyển từ hệ thống dựa trên cảnh báo sang hệ thống tự động thực thi.
-    *   Kiến trúc Deep Response Engine và demo xử lý sự cố tự động không gián đoạn dịch vụ.
-*   **09:25 - 09:55 AM | Voice Agents: Building Human-Like AI Conversations at Scale**
-    *   Sự tiến hóa từ IVR và chatbot truyền thống lên trợ lý giọng nói AI.
-    *   Giải quyết thách thức về độ trễ, độ chính xác và tương tác tự nhiên.
-    *   Kiến trúc kết hợp: telephony, streaming, Amazon Bedrock, MCP tools.
-*   **09:55 - 10:20 AM | AWS DevOps Agent: Your Always-Available Operations Teammate**
-    *   Tổng quan về AWS DevOps Agent giúp giảm MTTD và MTTR nhờ AI.
-    *   Hỗ trợ môi trường hybrid và đa đám mây; kiến trúc Bedrock AgentCore.
-*   **10:20 - 10:45 AM | AI-Powered Productivity: Workforce Planning For Enterprise**
-    *   Thách thức chuyển đổi số trong quản lý nhân sự.
-    *   Ứng dụng Amazon Quick trong phân tích dữ liệu và hoạch định chiến lược nhân sự.
-*   **10:45 - 11:30 AM | Building Secure Private MCP Connection with Amazon Quick**
-    *   Giao thức MCP và vai trò mở rộng tính năng cho trợ lý AI.
-    *   Các thách thức bảo mật và cấu hình kết nối VPC private cho Amazon Quick.
+#### **Tổng quan các chủ đề chính:**
+* **Deep Response Engine:** Dịch chuyển từ hệ thống giám sát cảnh báo truyền thống sang tự động hóa xử lý sự cố thời gian thực.
+* **Voice Agents at Scale:** Xây dựng tổng đài thoại AI thông minh, giải quyết triệt để các bài toán về độ trễ và độ tự nhiên của hội thoại.
+* **AWS DevOps Agent:** Ứng dụng trợ lý AI chuyên biệt để tự động chẩn đoán và khắc phục sự cố hệ thống cloud.
+* **AI-Powered Productivity:** Tối ưu hóa hoạch định nhân sự doanh nghiệp với sự trợ giúp của phân tích dữ liệu tự động.
+* **Private MCP Connection:** Cấu hình kết nối bảo mật private VPC cho giao thức kết nối ngữ cảnh mô hình (Model Context Protocol).
