@@ -1,6 +1,6 @@
 ---
 title: "Self-Evaluation"
-date: 2026-04-26
+date: 2026-07-18
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "

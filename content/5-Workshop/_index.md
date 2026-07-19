@@ -1,7 +1,7 @@
 ---
 title: "Workshop: Deploy Upscale AI on AWS"
 date: 2026-07-18
-weight: 10
+weight: 5
 chapter: false
 pre: "<b>5. </b>"
 ---

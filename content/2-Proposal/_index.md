@@ -146,3 +146,9 @@ CloudWatch logs, alarms, dashboard
 #### Phase 7: Deployment
 Frontend build, S3 upload, CloudFront invalidation
 
+---
+
+### 7. Video Demo
+
+- **Demo video link:** [Google Drive](https://drive.google.com/file/d/1lNZM2O4d3lM-bIPDWL6f4gZKBLKFYOcY/view?usp=sharing)
+

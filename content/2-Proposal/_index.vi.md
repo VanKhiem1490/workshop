@@ -146,5 +146,9 @@ CloudWatch logs, alarms, dashboard
 #### Giai đoạn 7: Triển khai
 Build frontend, upload S3, invalidate CloudFront
 
+---
 
+### 7. Video Demo
+
+- **Link video demo:** [Google Drive](https://drive.google.com/file/d/1lNZM2O4d3lM-bIPDWL6f4gZKBLKFYOcY/view?usp=sharing)
 
