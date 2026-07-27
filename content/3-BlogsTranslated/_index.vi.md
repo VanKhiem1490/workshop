@@ -6,11 +6,11 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-###  [Blog 1 - Trải nghiệm Amazon Nova Act: Tự động hóa UI bằng AI, không lo fix XPath](3.1-Blog1/)
-Blog này chia sẻ trải nghiệm thực tế về Amazon Nova Act, một dịch vụ AI Automation mới của AWS giúp xây dựng các Agent tự động tương tác trình duyệt thông qua câu lệnh ngôn ngữ tự nhiên tiếng Anh. Bài viết đi sâu phân tích cơ chế hoạt động bằng Học sâu tăng cường (Reinforcement Learning), hướng dẫn các bước lập trình hybrid (kết hợp Python SDK và AI lệnh) và phương pháp deploy mở rộng hạ tầng Fleet an toàn trên Cloud.
+###  [Blog 1 - Kiến trúc tổng quan hệ thống AI Image Upscaling trên hạ tầng Cloud](3.1-Blog1/)
+Bài viết phân tích toàn diện kiến trúc dịch vụ nâng cấp ảnh AI (Real-ESRGAN) và thuật toán truyền thống (LANCZOS) tối ưu trên GPU AWS. Qua các tầng xử lý từ Frontend, API, AI Processing đến Queue (SQS) và Storage, bài viết chia sẻ các quyết định thiết kế cốt lõi giúp tách biệt tải xử lý, tối ưu bộ nhớ GPU (FP16, Tile-based) và chiến lược quản trị chi phí vận hành hiệu quả.
 
-###  [Blog 2 - Kết hợp Amazon Cognito và Amazon Verified Permissions để triển khai Fine-grained Access Control](3.2-Blog2/)
-Bài viết phân tích giải pháp kết hợp Amazon Cognito để xác thực định danh người dùng (Authentication) và Amazon Verified Permissions để quản lý phân quyền chi tiết (Authorization) dựa trên ngôn ngữ chính sách Cedar. Qua mô hình thực tế, bài viết chia sẻ cách tách biệt hoàn toàn tầng logic phân quyền ra khỏi mã nguồn ứng dụng giúp tăng tính mở rộng, bảo mật và đơn giản hóa quy trình vận hành bảo mật.
+###  [Blog 2 - Bộ ba dịch vụ AWS đỉnh cao: Kết hợp VPC, EC2 và Amazon EFS](3.2-Blog2/)
+Bài viết phân tích mô hình kết hợp ba dịch vụ cốt lõi Amazon VPC, EC2 và Amazon Elastic File System (EFS) để tạo nên hạ tầng an toàn, có tính sẵn sàng cao (High Availability) và khả năng chịu lỗi vượt trội. Bài viết đi sâu vào giải pháp phân chia Subnet đa vùng (Multi-AZ) và cơ chế chia sẻ tệp tin tập trung qua Mount Target giúp cụm máy chủ EC2 luôn đồng nhất dữ liệu.
 
-###  [Blog 3 - Tạo Model 3D từ việc dùng AI để chuyển đổi hình 2D sang 3D Assets trên AWS](3.3-Blog3/)
-Bài viết hướng dẫn xây dựng quy trình tự động sinh vật thể 3D (.glb) từ hình ảnh 2D thông qua các mô hình AI mã nguồn mở (TripoSG và MV-Adapter) chạy trên hạ tầng GPU ảo Amazon EC2. Bài viết hướng dẫn cấu hình môi trường deep learning, giải pháp tối ưu hóa chi phí, xử lý vá lỗi lưới mesh (non-manifold) và cách thức đưa asset hoàn thiện vào các game engine.
+###  [Blog 3 - Kiến trúc Serverless trên AWS](3.3-Blog3/)
+Bài viết giới thiệu kiến trúc Serverless trên AWS kết hợp Amazon S3, API Gateway, AWS Lambda và DynamoDB để xây dựng ứng dụng web quản lý sách. Bài viết phân tích chi tiết luồng xử lý dữ liệu qua API Gateway, cơ chế tự động hóa tối ưu và thay đổi kích thước ảnh bất đồng bộ thông qua S3 Event, giúp hệ thống tự động mở rộng quy mô linh hoạt và giảm thiểu tối đa chi phí vận hành.
