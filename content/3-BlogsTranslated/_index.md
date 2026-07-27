@@ -6,12 +6,12 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-###  [Blog 1 - Experiencing Amazon Nova Act: AI-Powered UI Automation Without XPath Worries](3.1-Blog1/)
-This blog shares hands-on experience with Amazon Nova Act, a new AI Automation service by AWS that enables building Agents to interact with browsers using natural language in English. It details how the service leverages Reinforcement Learning, explains how to write hybrid code (combining Python SDK with AI commands), and covers secure deployment on cloud Fleet infrastructure.
+###  [Blog 1 -Overview Architecture of AI Image Upscaling System on Cloud](3.1-Blog1/)
+This post provides a comprehensive analysis of the architecture for an AI image upscaling service (Real-ESRGAN) and traditional algorithms (LANCZOS) optimized on AWS GPUs. Covering layers from Frontend, API, AI Processing to Queue (SQS) and Storage, it highlights core design decisions for decoupling workloads, optimizing GPU memory (FP16, Tile-based processing), and implementing effective cost management strategies.
 
-###  [Blog 2 - Combining Amazon Cognito and Amazon Verified Permissions for Fine-grained Access Control](3.2-Blog2/)
-This article explores a solution that combines Amazon Cognito for user authentication (Authentication) and Amazon Verified Permissions for detailed access management (Authorization) based on the Cedar policy language. By discussing a practical model, it demonstrates how to decouple authorization logic from the core codebase to increase scalability, improve security, and simplify access governance.
+###  [Blog 2 - The Ultimate AWS Trio: Combining VPC, EC2, and Amazon EFS](3.2-Blog2/)
+This post analyzes the architectural model combining three core services—Amazon VPC, EC2, and Amazon Elastic File System (EFS)—to create a secure, high-availability, and fault-tolerant infrastructure. It delves into multi-AZ subnet partitioning and the centralized file-sharing mechanism via Mount Targets, ensuring data consistency across the EC2 cluster.
 
-###  [Blog 3 - Generating 3D Models from 2D Images using AI on AWS](3.3-Blog3/)
-This blog provides a step-by-step guide to building a pipeline that automatically generates 3D objects (.glb) from 2D images using open-source AI models (TripoSG and MV-Adapter) running on GPU-powered Amazon EC2 instances. It covers deep learning environment setup, cost optimization strategies, repairing non-manifold mesh errors, and importing final assets into game engines.
+###  [Blog 3 -Serverless Architecture on AWS](3.3-Blog3/)
+This post introduces a Serverless architecture on AWS combining Amazon S3, API Gateway, AWS Lambda, and DynamoDB to build a book management web application. It analyzes in detail the data processing flow via API Gateway, as well as the asynchronous image resizing and optimization mechanism triggered by S3 Events, helping the system scale flexibly and minimize operational costs.
 
